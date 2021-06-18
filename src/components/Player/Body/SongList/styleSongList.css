@@ -1,0 +1,31 @@
+.songList {
+  padding-top: 40px;
+  background: linear-gradient(#0000001f, rgba(0, 0, 0, 1));
+  width: 100%;
+  padding: 30px;
+  color: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+}
+
+.songListHeader {
+  padding-bottom: 30px;
+}
+
+.songListIcon {
+  transform: scale(1.6);
+  padding: 20px;
+  transition: 100ms linear ease-out;
+}
+
+.songListIcon:hover {
+  transform: scale(1.7);
+}
+
+.iconLight {
+  color: #d6d6d6;
+}
+
+.songListMain {
+  padding-bottom: 80px;
+}

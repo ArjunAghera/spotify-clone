@@ -1,0 +1,10 @@
+.body {
+  flex: 0.8;
+  background: linear-gradient(#1d3a60, rgba(0, 0, 0, 1));
+  height: 100vh;
+  overflow-y: overlay;
+}
+
+.body::-webkit-scrollbar {
+  display: none;
+}
